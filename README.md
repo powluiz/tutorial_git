@@ -90,7 +90,7 @@ git push -u origin nome-branch
 Para enviar o código para o Repositório Remoto outras vezes, com a ligação entre o remoto e o local já criada:
 
 ```bash
-git push origin nome-branch
+git push
 ```
 Caso este seja o seu primeiro Repositório, provavelmente nome-branch será `master`. No entanto, a seguir há um pequeno tutorial sobre o uso de branches.
 
