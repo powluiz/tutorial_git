@@ -81,12 +81,17 @@ git remote add origin endereço-HTTPS-ou-SSH-do-repositorio
 Com isso, estamos atribuindo a `origin` o endereço informado, não havendo mais a necessidade de usá-lo quando necessário. caso queira conferir se o procedimento foi feito com êxito, utilize: `git remote -v`.
 
 
-Para enviar o código para o Repositório Remoto, utilize:
+Para enviar o código para o Repositório Remoto, utilize pela primeira vez, utilize:
+
+```bash
+git push -u origin nome-branch
+```
+
+Para enviar o código para o Repositório Remoto outras vezes, com a ligação entre o remoto e o local já criada:
 
 ```bash
 git push origin nome-branch
 ```
-
 Caso este seja o seu primeiro Repositório, provavelmente nome-branch será `master`. No entanto, a seguir há um pequeno tutorial sobre o uso de branches.
 
 # MANIPULAÇÃO DE BRANCHES
@@ -133,7 +138,7 @@ Para desfazer a ligação entre uma branch local e uma remota:
 git branch --unset-upstream
 ```
 
-Para criar uma nova branch local com base em uma remota:
+Para recuperar arquivos de um repositório local
 ```bash
  git fetch origin nome-branch
 ```
