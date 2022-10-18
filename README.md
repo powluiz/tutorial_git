@@ -127,10 +127,9 @@ Enviar para uma branch remota que ainda não existe e fazer a ligação entre am
  git push --set-upstream origin nova
 ```
 
-Para deletar uma branch remota, utilize um dos seguintes comandos:
+Para deletar uma branch remota, utilize:
 ```bash
 git push origin --delete nome-branch
-git push origin :nome-branch
 ```
 
 Para desfazer a ligação entre uma branch local e uma remota:
@@ -138,9 +137,33 @@ Para desfazer a ligação entre uma branch local e uma remota:
 git branch --unset-upstream
 ```
 
-Para recuperar arquivos de um repositório local
+Para recuperar arquivos de um repositório:
 ```bash
  git fetch origin nome-branch
 ```
+
+OBS: O `git pull` é basicamente uma fusão dos comandos `git fetch` + `git merge`!
+
+# FORMAS DE INTERAGIR COM UM REPOSITÓRIO
+
+## 1 - Permissão Direta
+O perfil que contém o repositório pode ir em `settings >colaboradores` e definir quem tem permissão total. Em seguida, os convidados vão receber uma notificação por email, a qual devem confirmar. Depois, basta utilizar os comandos a seguir e fazer as alterações livremente:
+
+```
+git clone chave-SSH
+cd nome-repositorio
+```
+
+
+## 2 - Tentativa Direta
+
+Em um repositório público, qualquer usuário pode utilizar `git clone chave-SSH` para ter acesso a todos os dados e branches de um projeto. No entanto, NÃO terá permissão para dar push a não ser que o administrador do repositório realize os passos citados anteriormente.
+
+## 3 - Fork
+
+Ao abrir um repositório e selecionar `Fork`, o usuário criará um novo repositório em seu próprio perfil com todos os dados do repo desejado e as alterações serão realizadas normalmente. No entanto, ao visualizar o seu próprio repositório no GitHub Web, o usuário poderá utilizar a opção `Contribuir > Open Pull Request`. Dessa forma, o administrador do repo original poderá visualizar as alterações sugeridas e decidir se fará ou não o merge na branch original.
+
+OBS: NÃO existe comando direto para fork via terminal!
+
 # MATERIAL DE APOIO:
 • https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git/
