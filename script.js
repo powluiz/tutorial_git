@@ -36,6 +36,13 @@ const hotelData = [
     pricing: 490.0,
     rate: 4.5,
   },
+  {
+      local: "Fortaleza",
+      name: "Hotel Villa Reali",
+      src:"https://images.pexels.com/photos/594077/pexels-photo-594077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      pricing: 250.0,
+      rate: 4.7,
+  },
 ];
 
 const hotelListComponent = document.getElementById("card-list");
@@ -48,7 +55,7 @@ hotelData.forEach((hotel, index) => {
   <img src=${hotel.src} alt="Imagem do hotel ${index + 1}">
   <div class="card-content">
     <h3>${hotel.local}</h3>
-    <h2>${hotel.naem}</h2>
+    <h2>${hotel.name}</h2>
     <div class="horizontal-info">
       <p>R$${hotel.pricing}/Noite</p>
       <p>|</p>
