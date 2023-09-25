@@ -90,7 +90,7 @@ git pull origin <nome-branch-principal>
 git checkout -b feature/nome-da-atividade
 git add .
 git commit -m 'feat: descrição da sua atividade'
-git push
+git push -u origin nome-branch
 ```
 
 ## Comandos Individuais:
@@ -115,12 +115,13 @@ git remote add origin endereço-HTTPS-ou-SSH-do-repositorio
 
 Com isso, estamos atribuindo a `origin` o endereço informado, não havendo mais a necessidade de usar o todo o texto do endereço completo quando necessário. Caso queira conferir se o procedimento foi feito com êxito, utilize: `git remote -v`.
 
-Para enviar o código para o Repositório Remoto pela primeira vez, utilize:
+Para enviar o código para o Repositório Remoto, utilize:
 
 ```bash
+# Atualizar branch remota já existente:
 git push
 
-# Quando for enviar uma nova branch:
+# Quando for criar uma nova branch remota:
 git push -u origin nome-branch
 ```
 
