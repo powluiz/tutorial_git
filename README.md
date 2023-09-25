@@ -162,22 +162,26 @@ Ao abrir um repositório e selecionar `Fork`, o usuário criará um novo reposit
 
 # Desafio Git e GitHub
 
-Criar um Fork deste repositório, clonar, criar uma nova branch, realizar as alterações sugeridas nos arquivos indicados, enviar para o repositório remoto e abrir um Pull Request.
+Criar um Fork deste repositório, clonar, criar uma nova branch, realizar as alterações sugeridas, enviar para o repositório remoto e abrir um Pull Request.
 
 Alterações:
 
-- Corrigir a importação do arquivo `style.css` dentro de `index.html`
-- Adicionar mais um item na lista de hotéis populares com os seguintes dados:
+- Adicionar na lista de Hotéis Populares um hotel com os seguintes dados:
 
   - Localização: `Fortaleza`
   - Nome: `Hotel Villa Reali`
   - Imagem: `https://images.pexels.com/photos/594077/pexels-photo-594077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`
   - Preço: `R$ 250,00`
-  - Classificação: `4.7`
-
-- Corrigir a exibição do nome dos hotéis na lista
+  - Classificação: `3.6`
 
 # MATERIAL DE APOIO:
 
 - https://github.com/occamengenharia/trainee-2022-2/tree/master/03_Git-e-Github
 - https://www.hostinger.com.br/tutoriais/comandos-basicos-de-git/
+- https://blog.rocketseat.com.br/iniciando-com-git-github/
+
+# EXTENSÕES RECOMENDADAS:
+
+- Live Server
+- GitLens
+- GitHub Copilot

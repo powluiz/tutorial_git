@@ -77,7 +77,12 @@ nav img {
 }
 
 .btn:hover {
-  transform: scale(1.04);
+  transform: scale(1.03);
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: scale(0.98);
   box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2);
 }
 
@@ -88,6 +93,14 @@ nav img {
 
 .primary {
   background-color: var(--main-color-primary);
+}
+
+.primary:hover {
+  filter: brightness(1.1);
+}
+
+.primary:active {
+  filter: brightness(0.9);
 }
 
 .header {
@@ -126,10 +139,6 @@ nav img {
   color: var(--primary-gray);
 }
 
-.primary:hover {
-  background-color: var(--main-color-secondary);
-}
-
 section h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -150,6 +159,7 @@ section p {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 0.5rem;
   row-gap: 3rem;
 }
 

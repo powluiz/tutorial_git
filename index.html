@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="s tlye.cs">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-    rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a60ef87bb8.js" crossorigin="anonymous"></script>
-  <script src="script.js" defer></script>
-  <title>Hotel Website</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="script.js" defer></script>
+    <title>Hotel Website</title>
+  </head>
 
-<body>
-  <nav>
-    <ul class="nav-links">
-      <img src="assets/logo.svg" alt="logo">
-      <li>
-        <a href="">Home</a>
-      </li>
-      <li>
-        <a href="">Quartos</a>
-      </li>
-      <li>
-        <a href="">Sobre</a>
-      </li>
-      <li>
-        <a href="">Contato</a>
-      </li>
-    </ul>
-    <button class="btn primary" onclick="alert('Interface de Login')">Login</button>
-  </nav>
-
-  <div class="header">
-    <div class="header-content">
-      <h1>Encontre o lugar perfeito para a sua estadia</h1>
-      <p>Ainda não conhece a nossa plataforma? Assista ao nosso vídeo de demonstração para descobrir como encontrar o
-        hotel ideal de forma fácil e prática!</p>
-
-      <button class="btn primary cta" onclick="alert('Execução do Vídeo')">
-        <i class="fa-solid fa-play"></i>
-        Veja o vídeo
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <img src="assets/logo.svg" alt="logo" />
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">Quartos</a>
+        </li>
+        <li>
+          <a href="">Sobre</a>
+        </li>
+        <li>
+          <a href="">Contato</a>
+        </li>
+      </ul>
+      <button class="btn primary" onclick="alert('Interface de Login')">
+        Login
       </button>
+    </nav>
+
+    <div class="header">
+      <div class="header-content">
+        <h1>Encontre o lugar perfeito para a sua estadia</h1>
+        <p>
+          Ainda não conhece a nossa plataforma? Assista ao nosso vídeo de
+          demonstração para descobrir como encontrar o hotel ideal de forma
+          fácil e prática!
+        </p>
+
+        <button
+          class="btn primary cta"
+          onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')"
+        >
+          <i class="fa-solid fa-play"></i>
+          Veja o vídeo
+        </button>
+      </div>
+      <img src="assets/pexels-pixabay-164595.jpg" alt="quarto de hotel" />
     </div>
-    <img src="assets/pexels-pixabay-164595.jpg" alt="quarto de hotel">
-  </div>
 
-  <section class="hotel-list">
-    <h1>Nossos Hotéis mais populares</h1>
-    <p>Veja a lista de hotéis com melhor avaliação pelos usuários</p>
-    <div id="card-list">
-      <!-- Exemplo de Card inserido em script.js -->
+    <section class="hotel-list">
+      <h1>Nossos Hotéis mais populares</h1>
+      <p>Veja a lista de hotéis com melhor avaliação pelos usuários</p>
+      <div id="card-list">
+        <!-- Exemplo de Card inserido em script.js -->
 
-      <!-- <button class="card">
+        <!-- <button class="card">
         <img src="assets/pexels-boonkong-boonpeng-1134176.jpg" alt="Imagem do hotel 1">
         <div class="card-content">
           <h3>Rio de Janeiro</h3>
@@ -75,35 +90,36 @@
           </div>
         </div>
       </button> -->
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <section class="about-us">
-    <img src="assets/about.jpg" alt="mesa de um hotel">
-    <div class="content">
-      <h1>A melhor solução para garantir o seu conforto</h1>
-      <p>Somos uma equipe determinada a ajudar os viajantes a encontrarem acomodações de qualidade. Algumas das suas
-        vantagens de nossa plataforma incluem: Comparação de preços, filtros de pesquisa, reservas diretas, acesso a
-        avaliações e muito mais!
-      </p>
+    <section class="about-us">
+      <img src="assets/about.jpg" alt="mesa de um hotel" />
+      <div class="content">
+        <h1>A melhor solução para garantir o seu conforto</h1>
+        <p>
+          Somos uma equipe determinada a ajudar os viajantes a encontrar
+          acomodações de qualidade. Algumas das vantagens de nossa plataforma
+          incluem: comparação de preços, filtros de pesquisa, reservas diretas,
+          acesso a avaliações e muito mais!
+        </p>
 
-      <p>Vamos encontrar o hotel perfeito para você? É fácil e prático!</p>
-      <button class="btn primary cta" onclick="alert('Interface de Reserva')">
-        Faça já a sua reserva!
-      </button>
-    </div>
-  </section>
+        <p>Vamos encontrar o hotel perfeito para você? É fácil e prático!</p>
+        <button class="btn primary cta" onclick="alert('Interface de Reserva')">
+          Faça já a sua reserva!
+        </button>
+      </div>
+    </section>
 
-  <footer>
-    <h3>Hotel Finder</h3>
-    <p>© 2023 Hotel Finder. Todos os direitos reservados.</p>
-    <div class="footer-links">
-      <a href="">Sobre</a>
-      <a href="">Contato</a>
-      <a href="">Termos de uso</a>
-      <a href="">Política de privacidade</a>
-    </div>
-  </footer>
-</body>
-
+    <footer>
+      <h3>Hotel Finder</h3>
+      <p>© 2023 Hotel Finder. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="">Sobre</a>
+        <a href="">Contato</a>
+        <a href="">Termos de uso</a>
+        <a href="">Política de privacidade</a>
+      </div>
+    </footer>
+  </body>
 </html>
