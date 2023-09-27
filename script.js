@@ -36,6 +36,14 @@ const hotelData = [
     pricing: 600.0,
     rate: 5,
   },
+  {
+    Localização: "Fortaleza",
+    Nome: "Hotel Villa Reali",
+    Imagem: "https://images.pexels.com/photos/594077/pexels-photo-594077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    Preço:  "250.0",
+    Classificação: "3.6"
+
+  }
 ];
 
 const hotelListComponent = document.getElementById("card-list");
