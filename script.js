@@ -37,6 +37,13 @@ const hotelData = [
     rate: 5,
   },
   {
+    local: "Lençois Maranhenses",
+    name: "Hotel Noite Feliz",
+    src: "./assets/pexels-thorsten-technoman-338504.jpg",
+    pricing: 700.0,
+    rate: 3.5,
+  },
+  {
     local: "Amazonas",
     name: "Hotel dos Matos",
     src: "./assets/pexels-thorsten-technoman-338504.jpg",
