@@ -35,7 +35,7 @@ const hotelData = [
     src: "./assets/pexels-thorsten-technoman-338504.jpg",
     pricing: 600.0,
     rate: 5,
-  }
+  },
   {
     Localização: "Fortaleza",
     Nome:" Hotel Villa Reali",
