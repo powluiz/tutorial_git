@@ -35,6 +35,13 @@ const hotelData = [
     src: "./assets/pexels-thorsten-technoman-338504.jpg",
     pricing: 600.0,
     rate: 5,
+  }, 
+  {
+    local: "Maringá",
+    name: "Hotel Marino",
+    src: "./assets/pexels-pixabay-164595.jpg",
+    pricing: 450.0,
+    rate: 4.3,
   },
 ];
 
