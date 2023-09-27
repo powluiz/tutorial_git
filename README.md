@@ -186,3 +186,4 @@ Alterações:
 - Live Server
 - GitLens
 - GitHub Copilot
+- Commitji
