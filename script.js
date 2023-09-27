@@ -36,6 +36,13 @@ const hotelData = [
     pricing: 600.0,
     rate: 5,
   },
+  {
+    local: "teste_aluno",
+    name: "Lorem Ipsum",
+    src: "./assets/https://images.pexels.com/photos/594077/pexels-photo-594077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    pricing: 600.0,
+    rate: 5,
+  },
 ];
 
 const hotelListComponent = document.getElementById("card-list");
