@@ -36,6 +36,13 @@ const hotelData = [
     pricing: 600.0,
     rate: 5,
   },
+  {
+    local: "Amazonas",
+    name: "Hotel dos Matos",
+    src: "./assets/pexels-thorsten-technoman-338504.jpg",
+    pricing: 600.0,
+    rate: 5,
+  },
 ];
 
 const hotelListComponent = document.getElementById("card-list");
