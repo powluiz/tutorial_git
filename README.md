@@ -3,7 +3,7 @@
 Faça o <a href="https://git-scm.com/download">download do git</a> para o seu sistema operacional.
 _(Para usuários inexperientes, basta avançar as etapas do instalador sem alterar os campos sugeridos.)_
 
-Para os próximos passos, abra o terminal no diretório raiz do usuário.
+Para os próximos passos, abra o terminal (Recomendo usar o Git Bash, instalado junto com o git) no diretório raiz do usuário.
 
 Para conferir se a instalação foi concluída com sucesso, digite:
 
